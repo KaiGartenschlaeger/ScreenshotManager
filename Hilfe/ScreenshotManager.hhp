@@ -1,0 +1,44 @@
+[OPTIONS]
+TITLE=Screenshot Manager
+Full-text search=Yes
+Display compile notes=YES
+Display compile progress=YES
+Compatibility=1.1
+Auto Index=Yes
+Default Window=Main
+Language=0x409 English (United States)
+Default Font=Arial,8,0
+Compiled file=screenshotmanager.chm
+Error Log file=screenshotmanager.log
+Contents file=screenshotmanager.hhc
+Index File=screenshotmanager.hhk
+Default Topic=informationen.htm
+
+[FILES]
+informationen.htm
+programmfenster.htm
+screenshottaste.htm
+speicherformat.htm
+speicherort.htm
+automatischespeicherung.htm
+texthinzufugen.htm
+weitereoptionen.htm
+speichername.htm
+sprachehinzufugen.htm
+einstellungen.htm
+
+
+
+[WINDOWS]
+Main="ScreenshotManagerHilfe","screenshotmanager.hhc","screenshotmanager.hhk","informationen.htm","informationen.htm", ,,,,0x060520,200, 0x003002, [0, 0, 1024, 591]  , 0x307e, , , , , , , , 0
+Popup="Popup","screenshotmanager.hhc","screenshotmanager.hhk","informationen.htm","informationen.htm", ,,,,0x060520,228, 0x003002, [9, 9, 566, 600]  , 0x307e, , , , , , , , 0
+
+
+[MAP]
+#include screenshotmanager.h
+
+
+
+[TEXT POPUPS]
+CSHelp.txt
+
